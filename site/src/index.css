@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+    z-index: -3;
+}
+
+.App {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: -10;
+}
+
+.top_container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar_container {
+    display: flex;
+    flex-basis: auto;
+    position: absolute;
+    z-index: 1;
+    
+    height: auto;
+    width: auto;
+
+    padding-left: 0;
+    margin: 0;
+    padding-right: 0;
+    
+    left: 50%;
+    transform: translateX(-50%);
+
+    justify-content: center;
+}
+
+
+.navbar_link {
+    text-decoration: none;
+    color: white;
+    font-size: 16pt;
+    font-family: "Proxima Nova";
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 7%;
+    margin-bottom: 4%;
+    position: relative;
+    display: inline-block;
+}
+.navbar_link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -10%;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.navbar_link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.homepg_container {
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow: clip;
+}
+
+/* TODO: figure out how to get zoom on window shrink behavior back*/
+.film_strip {
+    position: absolute;
+    width: 100%;
+    height: calc(9.647 * 100vw);
+    padding-top: 0;
+    margin-top: 0;
+    top: 0;
+    z-index: -1;  
+    background-image: url('../public/homepage_strip_with_boxes.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position-y: 0%; /*1% for top of img*/
+    background-position-x: center;
+}
+
+
+
+/* 
+
+    (0, 1%, 0) -> (0, -90%, 0)
+    @keyframes slide {
+    0% {
+      transform: translate3d(0, -1%, 0);
+    }
+    100% {
+      transform: translate3d(0, -90%, 0); 
+    }
+  }
+
+  increments of 10%
+
+
+*/
+
+.slide_trigger {
+    animation: slide_2 22.5s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes slide_1 {
+    0% { 
+        transform: translate3d(0, -0.75%, 0);
+    }
+    5.55% {
+        transform: translate3d(0, -0.75%, 0);
+    }
+    11.11% {
+        transform: translate3d(0, -10%, 0);
+    }
+    16.65% {
+        transform: translate3d(0, -10%, 0);
+    }
+    22.22% {
+      transform: translate3d(0, -20%, 0);
+    }
+    27.75% {
+        transform: translate3d(0, -20%, 0);
+    }
+    33.33% {
+        transform: translate3d(0, -30%, 0);
+    }
+    38.85% {
+        transform: translate3d(0, -30%, 0);
+    }
+    44.44% {
+        transform: translate3d(0, -40%, 0);
+    }
+    49.95% {
+      transform: translate3d(0, -40%, 0);
+    }
+    55.55% {
+        transform: translate3d(0, -50%, 0);
+    }
+    61.05% {
+        transform: translate3d(0, -50%, 0);
+    }
+    66.66% {
+        transform: translate3d(0, -60%, 0);
+    }
+    72.15% {
+      transform: translate3d(0, -60%, 0);
+    }
+    77.77% {
+        transform: translate3d(0, -70%, 0);
+    }
+    83.25% {
+        transform: translate3d(0, -70%, 0);
+    }
+    88.88% {
+        transform: translate3d(0, -80%, 0);
+    }
+    94.35% {
+        transform: translate3d(0, -80%, 0);
+    }
+    100% {
+        transform: translate3d(0, -89%, 0);
+    }
+  }
+
+@keyframes slide_2 {
+    0% { 
+        transform: translate3d(0, -0.75%, 0);
+    }
+    5.55% {
+        transform: translate3d(0, -2.75%, 0);
+    }
+    11.11% {
+        transform: translate3d(0, -10%, 0);
+    }
+    16.65% {
+        transform: translate3d(0, -12%, 0);
+    }
+    22.22% {
+      transform: translate3d(0, -20%, 0);
+    }
+    27.75% {
+        transform: translate3d(0, -22%, 0);
+    }
+    33.33% {
+        transform: translate3d(0, -30%, 0);
+    }
+    38.85% {
+        transform: translate3d(0, -32%, 0);
+    }
+    44.44% {
+        transform: translate3d(0, -40%, 0);
+    }
+    49.95% {
+      transform: translate3d(0, -42%, 0);
+    }
+    55.55% {
+        transform: translate3d(0, -50%, 0);
+    }
+    61.05% {
+        transform: translate3d(0, -52%, 0);
+    }
+    66.66% {
+        transform: translate3d(0, -60%, 0);
+    }
+    72.15% {
+      transform: translate3d(0, -62%, 0);
+    }
+    77.77% {
+        transform: translate3d(0, -70%, 0);
+    }
+    83.25% {
+        transform: translate3d(0, -72%, 0);
+    }
+    88.88% {
+        transform: translate3d(0, -80%, 0);
+    }
+    94.35% {
+        transform: translate3d(0, -82%, 0);
+    }
+    100% {
+        transform: translate3d(0, -89%, 0);
+    }
+  }
+
+
+
+
+
+.homepg_padding_container_top {
+    height: 35vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+.homepg_padding_container_bottom {
+    height: 42vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#scroll_arrow {
+    cursor:pointer;
+    background: none;
+    border: none;
+}
+
+#intro_container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* 84vh */
+    width: 100%;
+    margin-top: 9vh;
+    margin-bottom: 0;
+    padding: 0;
+    background-color: black;
+    
+
+}
+
+
+#intro {
+    font-family: 'Proxima Nova';
+    font-size: 17pt;
+    color: white;
+    width: 45vw;
+    margin-top: 12vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 3vh;
+}
+
+#polaroid {
+    scale: 0.9;
+    margin-top: 10vh;
+    margin-right: 5vw;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 3vh;
+}
+
+#name {
+    font-family: 'Proxima Nova';
+    font-size: 55pt;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 50pt;
+    color: white;
+    text-align: center;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Proxima Nova';
+    font-size: 30pt;
+    margin: 0;
+    padding: 0;
+    line-height: 60pt;
+    color: white;
+}
+
+.footer_container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    color: white;
+
+}
+
+div.footer_container > p {
+    margin: 0;
+    margin-top: 2%;
+    padding: 0;
+    font-size: 13pt;
+    font-family: "Proxima Nova";
+}
+
+.icon_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div.icon_container > a {
+    margin: 10px;
+    padding: 0;
+    border: 0;
+    fill: white;
+    color: white;
+}
+
+div.icon_container > a > svg path {
+    transition: all 0.25s ease;
+}
+
+div.icon_container > a > svg:hover path {
+    fill: #c9c9c9;
+    
+}
+
+
+
+.rotating_text {
+    position: absolute;
+    opacity: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+
+}
+
+@keyframes rotate {
+    0% {
+      opacity: 0;
+      transform: translate3d(0, 50px, 0);
+    }
+    
+    30%, 70% {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+    
+    100% {
+      opacity: 0;
+      transform: translate3d(0, -25px, 0);
+    }
+  }
+
+.animation_trigger {
+    animation: rotate 2.5s infinite;
+}
+
+
+.about_container {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0;
+    padding-top: 8vh;
+    height: auto;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.about_left {
+    width: 70vw;
+}
+
+.about_right {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about_heading {
+    font-family: "Proxima Nova";
+    margin-top: 5vh;
+    margin-left: 6vw;
+    margin-bottom: 0vh;
+    font-size: 25pt;
+    color: white;
+    
+}
+
+.about_content {
+    font-family: "Proxima Nova";
+    margin-top: 2vh;
+    padding-top: 0vh;
+    margin-left: 6vw;
+    font-size: 15pt;
+    padding-bottom: 0vh;
+    margin-bottom: 2vh;
+    color: white;
+}
+
+.about_polaroids {
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    max-height: 100%;
+    min-width: 100%;
+    vertical-align: bottom;
+    margin-top: 6vh;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px dotted white;
+}
