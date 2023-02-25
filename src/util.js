@@ -16,7 +16,7 @@ export class NavBar extends React.Component {
                 <div className='navbar_container'>
                     <Link to="/" className={"navbar_link"}>Home</Link>
                     <Link to="/about" className={"navbar_link"}>About</Link>
-                    <a href="https://github.com/andy-phung" className="navbar_link">Projects</a>
+                    <a href="https://github.com/andy-phung?tab=repositories" className="navbar_link">Projects</a>
                     <a href="https://drive.google.com/file/d/1qi6S3gEyORDFwK159iyWA0cg6AihOIwT/view?usp=sharing" className="navbar_link">Resume</a>
                 </div>
                 <Outlet />
