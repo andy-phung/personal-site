@@ -13,7 +13,7 @@ export class About extends React.Component {
               <ul className='about_content'>
                 <li>i used to breakdance (as part of ihs' <a className='link' href='https://www.instagram.com/ihscloud9/'>cloud 9</a>)</li>
                 <li>i've never finished a kdrama in its entirety before</li>
-                <li>my dream house is a 29 m<sup>2</sup> tiny apartment in london</li>
+                <li>my dream house is a tiny 29 m<sup>2</sup> apartment in london</li>
                 <li>i have over 650 hours in terraria</li>
                 <li>my first name is not, in fact, actually andrew</li>
               </ul>
