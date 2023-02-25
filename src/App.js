@@ -6,7 +6,8 @@ import {
   Routes, 
   Route, 
   Outlet, 
-  Link
+  Link, 
+  BrowserRouter
   } from "react-router-dom";
 
 import { Home } from "./home"
@@ -25,14 +26,14 @@ export default class App extends React.Component {
   render() {
     return (
       <div ref={this.app} className="App">
-        <Routes>
-          <Route path="/" element={ <NavBar/> }>
-            <Route index element={ <Home/> } />
-            <Route path="about" element={ <About/> } />
-            <Route path="projects" element={<Projects/>} />
-            <Route path="*" element={<NotFound/>} />
-          </Route>
-        </Routes>
+          <Routes>
+            <Route path="/" element={ <NavBar/> }>
+              <Route index element={ <Home/> } />
+              <Route path="about" element={ <About/> } />
+              <Route path="projects" element={<Projects/>} />
+              <Route path="*" element={<NotFound/>} />
+            </Route>
+          </Routes>   
       </div>
     );
   }
