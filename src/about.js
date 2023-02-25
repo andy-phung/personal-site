@@ -7,11 +7,14 @@ export class About extends React.Component {
             <div className='about_container'>
               <div className='about_left'>
               <p className='about_heading'><b>About me</b></p>
-                <p className='about_content'>Hey there! I'm Andy, a graduating senior at <a className='link' href="https://independence.esuhsd.org/">Independence High School</a> and an incoming freshman at <a className='link' href="https://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition">MIT</a>. </p>
+                <p className='about_content'>Hi! I'm Andy, an incoming freshman at <a className='link' href="https://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition">MIT</a>. <br/><br/> (supposed to be more here, just don't feel like writing it out rn)</p>
               
               <p className='about_heading'><b>Fun facts</b></p>
               <ul className='about_content'>
-                <li>placeholder</li>
+                <li>i used to breakdance (as part of ihs' <a className='link' href='https://www.instagram.com/ihscloud9/'>cloud 9</a>)</li>
+                <li>i've never finished a kdrama in its entirety before</li>
+                <li>my dream house is a 29 m<sup>2</sup> tiny apartment in london</li>
+                <li>i have over 650 hours in terraria</li>
                 <li>my first name is not, in fact, actually andrew</li>
               </ul>
               <p className='about_heading'><b>Favorites</b></p>

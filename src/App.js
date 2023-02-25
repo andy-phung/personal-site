@@ -29,8 +29,7 @@ export default class App extends React.Component {
           <Route path="/" element={ <NavBar/> }>
             <Route index element={ <Home/> } />
             <Route path="about" element={ <About/> } />
-            <Route path="projects" element={<ExternalLink link="https://github.com/andy-phung"/>} />
-            <Route path="resume" element={<ExternalLink link="https://drive.google.com/file/d/1qi6S3gEyORDFwK159iyWA0cg6AihOIwT/view?usp=sharing"/>} />
+            <Route path="projects" element={<Projects/>} />
             <Route path="*" element={<NotFound/>} />
           </Route>
         </Routes>

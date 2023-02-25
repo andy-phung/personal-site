@@ -343,8 +343,9 @@ html, body {
     background-color: black;
     margin: 0;
     padding: 0;
+    padding-top: 13vh;
     border: 1px solid black;
-    color: white;
+    
 
 }
 
@@ -354,12 +355,15 @@ div.footer_container > p {
     padding: 0;
     font-size: 13pt;
     font-family: "Proxima Nova";
+    color: white;
 }
 
 .icon_container {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    border: 1px solid black;
 }
 
 
@@ -368,7 +372,6 @@ div.icon_container > a {
     padding: 0;
     border: 0;
     fill: white;
-    color: white;
 }
 
 div.icon_container > a > svg path {
@@ -428,7 +431,7 @@ div.icon_container > a > svg:hover path {
 }
 
 .about_left {
-    width: 70vw;
+    width: 60vw; /* change back to 70vw when you actually write ur bio */
 }
 
 .about_right {
@@ -447,6 +450,7 @@ div.icon_container > a > svg:hover path {
     margin-top: 5vh;
     margin-left: 6vw;
     margin-bottom: 0vh;
+    padding-bottom: 0vh;
     font-size: 25pt;
     color: white;
     
@@ -454,12 +458,12 @@ div.icon_container > a > svg:hover path {
 
 .about_content {
     font-family: "Proxima Nova";
-    margin-top: 2vh;
+    margin-top: 0.5vh;
     padding-top: 0vh;
     margin-left: 6vw;
     font-size: 15pt;
     padding-bottom: 0vh;
-    margin-bottom: 2vh;
+    margin-bottom: 0vh;
     color: white;
 }
 
@@ -478,4 +482,16 @@ div.icon_container > a > svg:hover path {
     text-decoration: none;
     padding-bottom: 0;
     border-bottom: 2px dotted white;
+}
+
+ul {
+    padding-left: 1em;
+}
+
+ol {
+    padding-left: 2em;
+}
+
+sup {
+    font-size: 70%;
 }
