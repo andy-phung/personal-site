@@ -254,14 +254,14 @@ html, body {
 
 
 .homepg_padding_container_top {
-    height: 35vh;
+    height: 38vh;
     margin: 0;
     padding: 0;
 }
 
 
 .homepg_padding_container_bottom {
-    height: 42vh;
+    height: 45vh;
     margin: 0;
     padding: 0;
     display: flex;
@@ -423,6 +423,7 @@ div.icon_container > a > svg:hover path {
     padding-top: 8vh;
     height: auto;
     background-color: black;
+    justify-content: center;
     border: 1px solid black;
 }
 
@@ -436,6 +437,8 @@ div.icon_container > a > svg:hover path {
     height: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-right: 6vw;
 
 }
 
@@ -473,5 +476,6 @@ div.icon_container > a > svg:hover path {
 .link {
     color: white;
     text-decoration: none;
+    padding-bottom: 0;
     border-bottom: 2px dotted white;
 }
