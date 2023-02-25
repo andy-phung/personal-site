@@ -18,7 +18,7 @@ export class About extends React.Component {
                 <li>my first name is not, in fact, actually andrew</li>
               </ul>
               <p id='favs' className='about_heading'><b>Favorites</b></p>
-                <p id='visual_media_favs' className='about_content'>Visual media (movie/films, anime/manga, k-dramas, etc):</p>
+                <p id='visual_media_favs' className='about_content'>Visual media (movies/films, anime/manga, k-dramas, etc):</p>
                 <ol className='about_content'>
                   <li><a className='link' href='https://mangadex.org/title/f8e294c0-7c11-4c66-bdd7-4e25df52bf69/blue-period'>Blue Period</a></li>
                   <li>Everything Everywhere All At Once</li>
