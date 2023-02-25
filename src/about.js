@@ -20,9 +20,9 @@ export class About extends React.Component {
               <p className='about_heading'><b>Favorites</b></p>
                 <p id='visual_media_favs' className='about_content'>Visual media (movie/films, anime/manga, k-dramas, etc):</p>
                 <ol className='about_content'>
-                  <li>Blue Period</li>
+                  <li><a className='link' href='https://mangadex.org/title/f8e294c0-7c11-4c66-bdd7-4e25df52bf69/blue-period'>Blue Period</a></li>
                   <li>Everything Everywhere All At Once</li>
-                  <li>Land of the Lustrous</li>
+                  <li><a className='link' href='https://mangadex.org/title/cade38b7-64c4-4a29-8e3c-8c283291d6c6/land-of-the-lustrous'>Land of the Lustrous</a></li>
                   <li>Love Death + Robots</li>
                   <li>Be Melodramatic</li>
                   <li>Attack on Titan</li>
