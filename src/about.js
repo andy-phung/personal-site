@@ -26,7 +26,7 @@ export class About extends React.Component {
                   <li>Love Death + Robots</li>
                   <li>The Human Scale</li>
                   <li>Be Melodramatic</li>
-                  <li>Life</li>
+                  <li><a className='link' href='https://en.wikipedia.org/wiki/Life_(South_Korean_TV_series)'>Life</a></li>
                   <li>Attack on Titan</li>
                   <li><a className='link' href='https://www.youtube.com/watch?v=5nEyjYn9_LI&list=PL590L5WQmH8dsxxz7ooJAgmijwOz0lh2H'>Hacking Google</a></li>
                   <li>Castlevania</li>
