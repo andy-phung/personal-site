@@ -20,18 +20,18 @@ export class About extends React.Component {
               <p id='favs' className='about_heading'><b>Favorites</b></p>
                 <p id='visual_media_favs' className='about_content'>Visual media (movies/films, anime/manga, k-dramas, etc):</p>
                 <ol className='about_content'>
-                  <li><a className='link' href='https://mangadex.org/title/f8e294c0-7c11-4c66-bdd7-4e25df52bf69/blue-period'>Blue Period</a></li>
+                  <li><a className='link' href='https://mangadex.org/title/f8e294c0-7c11-4c66-bdd7-4e25df52bf69/blue-period' target="_blank" rel="noopener noreferrer">Blue Period</a></li>
                   <li>Everything Everywhere All At Once</li>
-                  <li><a className='link' href='https://mangadex.org/title/cade38b7-64c4-4a29-8e3c-8c283291d6c6/land-of-the-lustrous'>Land of the Lustrous</a></li>
+                  <li><a className='link' href='https://mangadex.org/title/cade38b7-64c4-4a29-8e3c-8c283291d6c6/land-of-the-lustrous' target="_blank" rel="noopener noreferrer">Land of the Lustrous</a></li>
                   <li>Love Death + Robots</li>
                   <li>The Human Scale</li>
                   <li>Be Melodramatic</li>
-                  <li><a className='link' href='https://en.wikipedia.org/wiki/Life_(South_Korean_TV_series)'>Life</a></li>
+                  <li><a className='link' href='https://en.wikipedia.org/wiki/Life_(South_Korean_TV_series)' target="_blank" rel="noopener noreferrer">Life</a></li>
                   <li>Attack on Titan</li>
-                  <li><a className='link' href='https://www.youtube.com/watch?v=5nEyjYn9_LI&list=PL590L5WQmH8dsxxz7ooJAgmijwOz0lh2H'>Hacking Google</a></li>
+                  <li><a className='link' href='https://www.youtube.com/watch?v=5nEyjYn9_LI&list=PL590L5WQmH8dsxxz7ooJAgmijwOz0lh2H' target="_blank" rel="noopener noreferrer">Hacking Google</a></li>
                   <li>Castlevania</li>
-                  <li><a className='link' href='https://www.youtube.com/watch?v=bG97F6b_6o4'>The Barkley Marathons: The Race That Eats Its Young</a></li>
-                  <li><a className='link' href='https://www.youtube.com/watch?v=z73R8Yy5vcQ'>Day In The Life Of A Taiwanese Master Chef</a></li>
+                  <li><a className='link' href='https://www.youtube.com/watch?v=bG97F6b_6o4' target="_blank" rel="noopener noreferrer">The Barkley Marathons: The Race That Eats Its Young</a></li>
+                  <li><a className='link' href='https://www.youtube.com/watch?v=z73R8Yy5vcQ' target="_blank" rel="noopener noreferrer">Day In The Life Of A Taiwanese Master Chef</a></li>
                   
                 </ol>
                 <p className='about_content'>Podcasts:</p>
