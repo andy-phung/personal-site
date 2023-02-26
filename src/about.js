@@ -24,12 +24,15 @@ export class About extends React.Component {
                   <li>Everything Everywhere All At Once</li>
                   <li><a className='link' href='https://mangadex.org/title/cade38b7-64c4-4a29-8e3c-8c283291d6c6/land-of-the-lustrous'>Land of the Lustrous</a></li>
                   <li>Love Death + Robots</li>
+                  <li>The Human Scale</li>
                   <li>Be Melodramatic</li>
-                  <li>Attack on Titan</li>
-                  <li>Vinland Saga</li>
-                  <li>Castlevania</li>
-                  <li>Golden Kamuy</li>
                   <li>Life</li>
+                  <li>Attack on Titan</li>
+                  <li><a className='link' href='https://www.youtube.com/watch?v=5nEyjYn9_LI&list=PL590L5WQmH8dsxxz7ooJAgmijwOz0lh2H'>Hacking Google</a></li>
+                  <li>Castlevania</li>
+                  <li><a className='link' href='https://www.youtube.com/watch?v=bG97F6b_6o4'>The Barkley Marathons: The Race That Eats Its Young</a></li>
+                  <li><a className='link' href='https://www.youtube.com/watch?v=z73R8Yy5vcQ'>Day In The Life Of A Taiwanese Master Chef</a></li>
+                  
                 </ol>
                 <p className='about_content'>Podcasts:</p>
                 <ol className='about_content'>
