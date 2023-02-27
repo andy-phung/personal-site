@@ -27,8 +27,6 @@ export class About extends React.Component {
                   <li>The Human Scale</li>
                   <li>Be Melodramatic</li>
                   <li><a className='link' href='https://en.wikipedia.org/wiki/Life_(South_Korean_TV_series)' target="_blank" rel="noopener noreferrer">Life</a></li>
-                  <li>Attack on Titan</li>
-                  <li>Castlevania</li>
                   <li><a className='link' href='https://www.youtube.com/watch?v=5nEyjYn9_LI&list=PL590L5WQmH8dsxxz7ooJAgmijwOz0lh2H' target="_blank" rel="noopener noreferrer">Hacking Google</a></li>
                   <li><a className='link' href='https://www.youtube.com/watch?v=bG97F6b_6o4' target="_blank" rel="noopener noreferrer">The Barkley Marathons: The Race That Eats Its Young</a></li>
                   <li><a className='link' href='https://www.youtube.com/watch?v=z73R8Yy5vcQ' target="_blank" rel="noopener noreferrer">Day In The Life Of A Taiwanese Master Chef</a></li>
