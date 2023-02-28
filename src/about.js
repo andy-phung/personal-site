@@ -6,9 +6,8 @@ export class About extends React.Component {
         return (
             <div className='about_container'>
               <div className='about_left'>
-              <p className='about_heading'><b>About me</b></p>
-                <p className='about_content'>Hi! I'm Andy, an incoming freshman at <a className='link' href="https://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition">MIT</a>. <br/><br/> (supposed to be more here, just don't feel like writing it out rn)</p>
-              
+              <p className='about_heading'><b>A little more about me</b></p>
+                <p className='about_content'>Hi! I'm Andy, an incoming freshman at <a className='link' href="https://bcs.mit.edu/academic-program/course-6-9-computation-and-cognition">MIT</a>. <br/><br/> TODO: finish writing this lol</p>
               <p className='about_heading'><b>Fun facts</b></p>
               <ul className='about_content'>
                 <li>i used to breakdance (as part of ihs' <a className='link' href='https://www.instagram.com/ihscloud9/'>cloud 9</a>)</li>
