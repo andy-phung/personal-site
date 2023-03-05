@@ -435,6 +435,7 @@ div.icon_container > a > svg:hover path {
 
 .about_left {
     width: 60vw; /* change back to 70vw when you actually write ur bio */
+    margin-right: 3vw;
 }
 
 .about_right {
@@ -461,12 +462,12 @@ div.icon_container > a > svg:hover path {
 
 .about_content {
     font-family: "Nunito Sans";
-    margin-top: 0.5vh;
+    margin-top: 1vh;
     padding-top: 0vh;
     margin-left: 6vw;
     font-size: 15pt;
     padding-bottom: 0vh;
-    margin-bottom: 0vh;
+    margin-bottom: 1vh;
     color: white;
 }
 

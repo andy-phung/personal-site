@@ -7,7 +7,10 @@ export class About extends React.Component {
             <div className='about_container'>
               <div className='about_left'>
               <p className='about_heading'><b>A little more about me</b></p>
-                <p className='about_content'>Hi! I'm Andy. <br/><br/> TODO: finish writing this</p>
+                <p className='about_content'>Hey! I'm Andy.
+                  <br/><br/> I'm a native of San Jose, California, and a graduate of <a className='link' href='https://independence.esuhsd.org/'>Independence High School</a>, where I ran <a className='link' href='https://www.instagram.com/ihscsclub76/'>IHS Computer Science Club</a>, <a className='link' href='https://www.instagram.com/ihsmesa/'>IHS MESA</a>, and the <a className='link' href='https://indystemexpo.live'>Indy STEM Expo</a>. Over the past few years, I conducted research on making machine learning systems <a className='link' href='https://abstracts.societyforscience.org/Home/FullAbstract?Category=Any%20Category&Finalist=Phung&AllAbstracts=False&FairCountry=Any%20Country&FairState=Any%20State&ProjectId=22557'>safer</a> & <a className='link' href='https://arxiv.org/pdf/2103.05469.pdf'>more reliable</a>, and involved myself in a number of <a className='link' href='https://www.linkedin.com/company/beyondthefive/'>education-centered</a> <a className='link' href='https://www.rotarydistrict5170vietnamproject.org/'>organizations</a>. 
+                  <br/><br/> In college, I look forward to exploring the intersection of artificial intelligence and cognitive science—how we can improve machine learning algorithms based on our understanding of the human brain, and vice versa. But beyond that, I don’t really know what I’ll be doing next. Exploring the power of film in portraying what isn't usually seen? Or making multimodal art that urges us to more deeply introspect? Or even looking into the interplays between language, meaning, and thought? Who knows.
+                </p>
               <p className='about_heading'><b>Fun facts</b></p>
               <ul className='about_content'>
                 <li>i used to breakdance (as part of ihs' <a className='link' href='https://www.instagram.com/ihscloud9/'>cloud 9</a>)</li>
