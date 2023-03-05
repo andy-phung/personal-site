@@ -284,7 +284,7 @@ html, body {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    height: auto; /* 84vh */
+    height: 90vh; /* 84vh */
     width: 100%;
     margin-top: 9vh;
     margin-bottom: 0;
@@ -344,12 +344,11 @@ html, body {
     align-items: center;
     text-align: center;
     background-color: black;
+    height: 10vh;
     margin: 0;
     padding: 0;
     padding-top: 13vh;
     border: 1px solid black;
-    
-
 }
 
 div.footer_container > p {
