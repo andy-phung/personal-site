@@ -426,7 +426,7 @@ div.icon_container > a > svg:hover path {
     flex-flow: row wrap;
     margin: 0;
     padding: 0;
-    padding-top: 8vh;
+    padding-top: 13vh;
     height: auto;
     background-color: black;
     justify-content: center;
@@ -444,7 +444,7 @@ div.icon_container > a > svg:hover path {
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     margin-right: 6vw;
 
 }
@@ -479,6 +479,7 @@ div.icon_container > a > svg:hover path {
     min-width: 100%;
     vertical-align: bottom;
     margin-top: 6vh;
+    margin-bottom: 6vh;
 }
 
 .link {
